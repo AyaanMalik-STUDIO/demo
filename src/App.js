@@ -7,6 +7,7 @@ import Contact from './components/Contact';
 function App() {
   return (
     <BrowserRouter basename='/demo'>
+     <Homepage/>
       <Routes>
         <Route exact path='/' component={Homepage} />
         <Route exact path='/About' component={About} />
