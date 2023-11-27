@@ -6,7 +6,7 @@ import Contact from './components/Contact';
 
 function App() {
   return (
-    <BrowserRouter basename='/demo'>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
      <Homepage/>
       <Routes>
         <Route exact path='/' component={Homepage} />
